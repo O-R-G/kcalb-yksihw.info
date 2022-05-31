@@ -12,7 +12,8 @@ body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	font-family: sf-text, Helvetica, Arial, sans-serif;
+	/* font-family: sf-text, Helvetica, Arial, sans-serif; */
+	font-family: univers55, Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 22px;	
 	-webkit-font-smoothing: subpixel-antialiased;

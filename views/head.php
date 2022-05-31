@@ -37,6 +37,7 @@ if($uu->id) {
 		<link rel="stylesheet" href="/static/css/main.css">
 		<link rel="stylesheet" href="/static/css/sf-text.css">
 		<link rel="stylesheet" href="/static/css/sf-mono.css">
+		<link rel="stylesheet" href="/static/css/univers-55.css">
 		<link rel="apple-touch-icon" href="/media/png/touchicon.png" />
 	</head>
 	<body><?
