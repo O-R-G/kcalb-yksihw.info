@@ -15,7 +15,8 @@ $uu = new URL();
 if($uu->id)
 	$item = $oo->get($uu->id);
 else
-	$item = $oo->get(0);
+	// $item = $oo->get(0);
+	$item = $oo->get(1);	// temp hack to force display /prospectus
 $name = ltrim(strip_tags($item["name1"]), ".");
 $nav = $oo->nav($uu->ids);
 $show_menu = false;

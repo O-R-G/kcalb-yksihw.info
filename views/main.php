@@ -24,7 +24,7 @@ $body = preg_replace($find, $replace, $body);
 			</ul>
 		</ul>
 	</div>
-    <div id='content'>
+    <div id='content' class='red'>
         <div id='columns'><?
             echo $body;
             if ($date) {

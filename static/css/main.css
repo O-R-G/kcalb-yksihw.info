@@ -36,12 +36,13 @@ canvas {
 
 a:link,
 a:visited {
-    color: #00F;
+    color: #F00;
     text-decoration: none;
+    border-bottom: 1px solid #F00;
 }
 
 a:hover {
-    color: #000;
+    border-bottom: none;
 }
 
 a:active {
@@ -100,6 +101,7 @@ blockquote {
 }
 
 #breadcrumbs {
+	display: none;
 	padding: 1em;
 	padding-bottom: 0px;
 }
@@ -108,11 +110,13 @@ blockquote {
     padding: 1em;
 }
 
+/*
 #columns {
     columns: 400px 6;
     column-gap: 44px;
     padding: 1em;
 }
+*/
 
 /* use margin instead of <br> */
 #columns div {
@@ -342,6 +346,10 @@ blockquote {
 
 .pdf #notes {
     padding-bottom: 22px;
+}
+
+.red {
+    color: #F00;
 }
 
 /* vertical iPad / horizontal iPhone */
