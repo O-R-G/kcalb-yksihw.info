@@ -40,6 +40,7 @@ $body = preg_replace($find, $replace, $body);
     </div>
 </section>
 
+<!--
 <script type="text/javascript" src="/static/js/screenfull.min.js"></script>	
 <script type="text/javascript" src="/static/js/windowfull.js"></script>	
 <script>
@@ -58,3 +59,4 @@ $body = preg_replace($find, $replace, $body);
         }
 	}
 </script>
+-->

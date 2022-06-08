@@ -16,7 +16,7 @@ if($uu->id)
 	$item = $oo->get($uu->id);
 else
 	// $item = $oo->get(0);
-	$item = $oo->get(1);	// temp hack to force display /prospectus
+	$item = $oo->get(2);	// temp hack to force display /home
 $name = ltrim(strip_tags($item["name1"]), ".");
 $nav = $oo->nav($uu->ids);
 $show_menu = false;
@@ -35,6 +35,16 @@ if($uu->id) {
 		<title><? echo $site; ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="og:image" content="/media/jpg/og.jpg" />
+	        <meta name="og:type" content="website" />
+        	<meta name="og:title" content="YKSIHW KCALB" />
+	        <meta name="og:url" content="https://yksihw-kcalb.info" />
+        	<meta name="og:description" content="This is a coöperatively produced 35cl bottle of 12-year 94-proof single-cask single-malt BLACK WHISKY distilled by Stählemühle (Germany) using water from the Black Forest & published by Dexter Sinister (USA) in 2022." />
+	        <meta name="twitter:card" content="summary" />
+        	<meta name="twitter:title" content="YKSIHW KCALB" />
+	        <meta name="twitter:site" content="https://yksihw-kcalb.info" />
+        	<meta name="twitter:description" content="This is a coöperatively produced 35cl bottle of 12-year 94-proof single-cask single-malt BLACK WHISKY distilled by Stählemühle (Germany) using water from the Black Forest & published by Dexter Sinister (USA) in 2022." />
+	        <meta name="twitter:image" content="https://yksihw-kcalb.info/media/jpg/og.jpg" />
 		<link rel="stylesheet" href="/static/css/main.css">
 		<link rel="stylesheet" href="/static/css/sf-text.css">
 		<link rel="stylesheet" href="/static/css/sf-mono.css">

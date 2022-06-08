@@ -4,6 +4,6 @@
 */
 
 $head = 'Dear Cooperator,';
-$site = 'KCALB YKSIHW';
+$site = 'YKSIHW KCALB';
 $home = $head . ", " . $site;
 ?>
